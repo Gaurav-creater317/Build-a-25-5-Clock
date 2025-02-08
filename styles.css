@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+}
+
+.clock-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #444;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.controls, .timer {
+  margin: 20px 0;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  background: #61dafb;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #21a1f1;
+}
+
+#time-left {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
